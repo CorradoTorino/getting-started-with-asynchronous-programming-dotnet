@@ -47,3 +47,21 @@ Select the MacOS and the Web projects as startup projects
 Run the projects
 
 ![Run multiple startup projects](https://github.com/fekberg/getting-started-with-asynchronous-programming-dotnet/blob/master/images/MacOS_Run_Multiple.png?raw=true "Run Multiple startup projects on MacOS")
+
+
+
+## Troubleshooting
+
+#### Could not find a part of the path '\bin\roslyn\csc.exe'
+
+If when debugging you have the problem:
+
+`Could not find a part of the path '\bin\roslyn\csc.exe'.`
+
+Then run this in the Package Manager Console:
+
+```
+Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
+```
+
+More info on: https://stackoverflow.com/questions/32780315/could-not-find-a-part-of-the-path-bin-roslyn-csc-exe

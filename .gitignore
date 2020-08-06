@@ -361,3 +361,11 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /src/Windows/02/Start_Here/.vs
+/src/Windows/03/Start_Here/.vs
+/src/Windows/04/Start_Here/.vs
+/src/Windows/05/Start_Here/.vs
+
+/src/Windows/02/Completed/.vs
+/src/Windows/03/Completed/.vs
+/src/Windows/04/Completed/.vs
+/src/Windows/05/Completed/.vs
